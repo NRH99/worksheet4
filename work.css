@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Segoe,"Segoe", 'Segoe UI';
+	text-align: center;
+	background-color: #EA4C4C;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+h1{
+	font-family: Constantia,"Constantia";
+}
+h2{
+	font-family: Constantia,"Constantia";
+}
+nav{
+	text-transform:uppercase;
+	background-color:#A1C45A;
+	position:relative;
+	bottom: 10px;
+	padding-bottom: 12px
+}
+.nav-logo{
+   position:absolute;
+    left: 50px;
+    height:70px;width: 50px;
+}
+.nav-logo-text {
+	display: inline-block;
+	position:absolute;
+	top:45px;
+	left:12px;
+	color: white;
+	font-weight: bold;
+}
+.nav-content {
+	position: relative;
+	display: inline-block;
+	margin-left:800px;
+	margin-top: 10px;
+}
+a{
+	color: white;
+	list-style-type: none;		
+}
+li{
+	display: inline-block;
+     margin: 10px;	
+}
+a:hover{
+	color: lightgray;
+}
+.nav-content li a{
+	text-decoration: none;
+}
+.big-logo{
+	position: relative;
+	bottom: 10px;
+	height: 400px;
+}
+.logo-text{
+	position:relative;
+	bottom: 80px;
+	text-transform: uppercase; 
+	font-size: 70px;
+	color: white;		
+}
+hr{
+	border-style: solid;
+	border-radius: 15px;
+	width:50%;
+	background-color: #F1C550;
+	border-color: #F1C550;
+	position: relative;
+	bottom: 100px;
+}
+.second-section{
+	position: relative;
+	bottom: 60px;
+	background-color: #FFF9E0;
+	text-align: left;
+	padding: 30px 10px;
+	margin: 0px 0px;
+}
+.form-header{
+	text-transform: uppercase;
+	text-align: center;
+	color:#A1C45A;
+}
+form{
+	border-style: solid;
+	border-color: darkgray;
+	border-radius: 2px;
+	margin: 0px 20px ;
+}
+.div{
+	margin-left: 300px;
+	margin-bottom: 15px;
+	margin-top: 8px;
+	word-spacing: 8px;	
+}
+label{
+	color: #EA4C4C;	
+}
+.option-text,span{
+	color:#A1C45A;	
+}
+input[type=number]{
+	width: 5%;
+	margin-left: 25px;	
+}
+input:hover{
+	border-color: green;	
+}
+input[type=submit]{
+	letter-spacing: 2px;
+	color:  #A1C45A;
+	background-color: white;
+	border-color: #A1C45A;
+    padding: 16px 50px;
+    margin: 4px 2px;
+	border-radius: 4px;
+	border-style:solid;
+	position:relative;
+	left: 43%;
+}
+input[type=submit]:hover{
+	border-color:red ;
+	font-weight: bold;
+}
+footer{
+	display: inline-block;
+	text-transform: uppercase;
+	color: white;
+	font-size: 13px;
+}
+.im{
+	height: 20px ;width: 20px;
+}
+.col-2{
+	display: inline-block;
+	margin: 12px;
+}
